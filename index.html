@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Piksel Defter</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#ac3344">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="red">
+  <div id="app" class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><div class="brand-icon"><img src="/icon.svg" alt=""></div><div><div class="brand-title pixel-title">piksel<br>defter</div><div class="brand-caption">KÜÇÜK ADIMLAR, GÜZEL GÜNLER</div></div></div>
+      <div class="sidebar-divider"></div>
+      <div class="sidebar-label">DEFTERİM</div>
+      <nav id="nav" aria-label="Ana menü"></nav>
+      <div class="sidebar-bottom"><div class="pixel-scene" aria-hidden="true"><div class="scene-sun"></div><div class="scene-cloud c1"></div><div class="scene-cloud c2"></div><div class="scene-hill h1"></div><div class="scene-hill h2"></div><div class="scene-flower">✿</div></div><div class="scene-quote">bugün de kendi hızında 🌷</div><button id="settingsBtn" class="nav-item settings-nav">⚙ <span>Ayarlar</span></button><button id="accountBtn" class="nav-item account-nav" hidden>♙ <span>Hesabım</span></button></div>
+    </aside>
+    <main class="main">
+      <div class="ambient-scene" aria-hidden="true"><div class="ambient-image"></div><div id="leafLayer" class="leaf-layer"></div></div>
+      <header class="topbar"><div class="top-left"><span class="window-dots"><i></i><i></i><i></i></span><span id="breadcrumb">Günüm</span></div><div class="top-actions"><div id="todayPill" class="today-pill"></div><button id="themeBtn" class="soft-btn theme-toggle" title="Tema değiştir">✿ Tema değiştir</button><button id="searchBtn" class="icon-btn" title="Ara (Ctrl+K)">⌕</button><button id="quickAdd" class="primary-btn">＋ Yeni ekle</button></div></header>
+      <section id="content" class="content"></section>
+      <div id="toast" class="toast" role="status"></div>
+    </main>
+  </div>
+  <div id="modalRoot"></div>
+  <div id="cloudGate" class="cloud-gate" hidden></div>
+  <script src="cloud-config.js"></script>
+  <script src="app.js"></script>
+  <script src="cloud.js"></script>
+</body>
+</html>
