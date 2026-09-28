@@ -1,6 +1,6 @@
 # Piksel Defter ✿
 
-Piksel manzaralı günlük, haftalık ve aylık planlayıcı. Yerel masaüstü sürümü ile iPhone/Windows/Linux üzerinde açılabilen hesaplı web sürümü aynı arayüzü kullanır.
+Piksel manzaralı günlük, haftalık ve aylık planlayıcı. Canlı adres: **https://ssuheyyo.github.io/piksel-defter/**. Aynı hesapla iPhone, Android, tablet, Windows ve Linux üzerinde kullanılabilir.
 
 ## Web sürümü nasıl çalışır?
 
@@ -18,7 +18,7 @@ Sonrasında aynı web adresine iPhone, Android, tablet, Windows veya Linux'tan g
 
 ## Açma
 
-Masaüstündeki **Piksel Defter** simgesine çift tıklayın. Kısayol görünmüyorsa bu klasördeki `launch.sh` dosyasını çalıştırın. Uygulama 1160 × 800 boyutunda ayrı bir pencere açar; pencereyi normal şekilde büyütüp küçültebilirsiniz.
+Masaüstündeki **Piksel Defter** simgesine çift tıklayın. Kısayol görünmüyorsa bu klasördeki `launch.sh` dosyasını çalıştırın. Bu kısayol çevrimiçi hesabını 1160 × 800 boyutunda ayrı bir pencerede açar; ilk seferde hesabına giriş yap. Pencereyi normal şekilde büyütüp küçültebilirsiniz. Eski çevrimdışı SQLite sürümüne gerekirse `launch-local.sh` ile erişebilirsiniz; onda yaptığınız yeni düzenlemeler web hesabına kendiliğinden aktarılmaz.
 
 ## Neler yapabilirsiniz?
 
@@ -37,9 +37,9 @@ Masaüstündeki **Piksel Defter** simgesine çift tıklayın. Kısayol görünm�
 
 ## Veriler nerede?
 
-Planlar varsayılan olarak bilgisayarınızda `~/.local/share/piksel-defter/planner.sqlite3` dosyasında saklanır. İnternet bağlantısı olmadan kullanılabilir. Yedek almak için **Ayarlar → Yedeği indir** yolunu kullanın.
+Çevrimiçi uygulamadaki planlar Supabase hesabının veritabanında saklanır. Masaüstü simgesi bu sürümü açar. Eski çevrimdışı sürümün kayıtları bilgisayarınızda `~/.local/share/piksel-defter/planner.sqlite3` dosyasında kalır. Yedek almak için **Ayarlar → Yedeği indir** yolunu kullanın.
 
-Başka bir cihazla eşitlemek isterseniz **Ayarlar** bölümüne kendi **HTTPS WebDAV dosya adresinizi**, kullanıcı adınızı ve uygulama parolanızı girip **Şimdi eşitle** düğmesine basın. Nextcloud gibi WebDAV sunan bir hizmet kullanılabilir. Bu özellik isteğe bağlıdır; bir hesap otomatik açılmaz. Eşitleme iki cihaz aynı kaydı değiştirdiyse daha yeni kaydı tutar. Aynı anda iki cihazda düzenleme yapıyorsanız önce eşitleyin.
+Eski çevrimdışı sürümde ayrıca WebDAV eşitlemesi vardır. Bunun için o sürümün **Ayarlar** bölümüne kendi **HTTPS WebDAV dosya adresinizi**, kullanıcı adınızı ve uygulama parolanızı girip **Şimdi eşitle** düğmesine basın. Hesaplı web sürümünde buna gerek yoktur; kayıtlar oturum açtığınız hesapla eşitlenir.
 
 Saatli hatırlatıcılar ve odak sayacı uygulama açıkken çalışır. Hatırlatıcı için görev/etkinlikte saat ve hatırlatma süresi seçin.
 
