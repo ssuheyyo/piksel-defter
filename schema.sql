@@ -22,8 +22,8 @@ create index if not exists planner_items_user_live_idx
 alter table public.planner_items enable row level security;
 alter table public.planner_settings enable row level security;
 
-revoke all on table public.planner_items from anon;
-revoke all on table public.planner_settings from anon;
+revoke all on table public.planner_items from anon, authenticated;
+revoke all on table public.planner_settings from anon, authenticated;
 grant select, insert, update on table public.planner_items to authenticated;
 grant select, insert, update on table public.planner_settings to authenticated;
 
