@@ -14,7 +14,7 @@ GitHub Pages yalnızca HTML, CSS, JavaScript ve görselleri yayınlar. Hesap ve 
 4. Bu depoyu GitHub Pages ile `main` dalı kökünden yayınlayın. Web sayfasından e-posta ve parola ile hesap oluşturup giriş yapın.
 5. Eski masaüstü kayıtlarını taşımak için yerel uygulamada **Ayarlar → Yedeği indir**, web uygulamasında giriş yaptıktan sonra **Ayarlar → Yedek yükle** adımlarını izleyin. Yedek dosyasını GitHub deposuna yüklemeyin.
 
-Sonrasında aynı web adresine Linux, Windows veya iPhone'dan girip **aynı hesapla** oturum açın. iPhone'da Safari paylaşım menüsündeki **Ana Ekrana Ekle** seçeneğiyle uygulama simgesi oluşturabilirsiniz. Çevrimiçi sürüm veri yazmak ve diğer cihazdaki değişiklikleri almak için internet bağlantısı ister. Diğer cihazdaki değişiklikler sayfa açılınca veya uygulamaya geri dönünce yenilenir. Bildirimler yalnızca yerel masaüstü sürümü açıkken çalışır; iPhone'a arka plan bildirimi gönderilmez.
+Sonrasında aynı web adresine iPhone, Android, tablet, Windows veya Linux'tan girip **aynı hesapla** oturum açın. iPhone'da Safari paylaşım menüsündeki **Ana Ekrana Ekle** seçeneğiyle uygulama simgesi oluşturabilirsiniz. Android'de tarayıcı menüsündeki **Ana ekrana ekle** veya **Uygulamayı yükle** seçeneğini kullanabilirsiniz. Çevrimiçi sürüm veri yazmak ve diğer cihazdaki değişiklikleri almak için internet bağlantısı ister. Diğer cihazdaki değişiklikler sayfa açılınca veya uygulamaya geri dönünce yenilenir. Bildirimler yalnızca yerel masaüstü sürümü açıkken çalışır; telefona arka plan bildirimi gönderilmez.
 
 ## Açma
 

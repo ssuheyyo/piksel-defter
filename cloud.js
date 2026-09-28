@@ -191,7 +191,7 @@
     const recovery = mode === 'recovery';
     showGate(`<div class="cloud-card"><img src="icon.svg" alt="" class="cloud-icon"><div class="eyebrow">PİKSEL DEFTER ✿</div>
       <h1>${recovery ? 'Yeni parola' : signup ? 'Defterini aç' : 'Tek defter, her cihazda'}</h1>
-      <p>${recovery ? 'Hesabın için yeni bir parola belirle.' : 'Linux, Windows ve iPhone’da aynı planlarını görmek için hesabına giriş yap.'}</p>
+      <p>${recovery ? 'Hesabın için yeni bir parola belirle.' : 'iPhone, Android, tablet ve bilgisayarında aynı planlarını görmek için hesabına giriş yap.'}</p>
       ${notice ? `<div class="cloud-notice" role="status">${window.esc(notice)}</div>` : ''}
       <form id="cloudForm">
         ${recovery ? '' : '<label>E-posta<input name="email" type="email" autocomplete="email" required></label>'}
